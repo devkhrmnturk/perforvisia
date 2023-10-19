@@ -1,0 +1,41 @@
+.outline-p {
+    transition: var(--tr);
+    transform: translateX(1rem);
+    cursor: pointer;
+    rotate: -90deg;
+    font-size: 95%;
+}
+
+#brand {
+    transition: var(--tr);
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+#brand:active {
+    letter-spacing: 0.1rem;
+    color: var(--brown);
+}
+
+.outline-p:hover {
+    scale: 1.1;
+}
+
+.outline-p:active {
+    /* transform: translateX(1rem); */
+    /* letter-spacing: 0.1rem; */
+    color: var(--brown);
+}
+
+
+.article__head:active {
+    color: var(--latte);
+}
+
+#dream {
+    transition: var(--tr);
+}
+
+#dream:hover {
+    letter-spacing: 0.3rem;
+}

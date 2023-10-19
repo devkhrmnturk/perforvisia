@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perforvisia</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="item-style.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- google icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <nav id="nav" class="nav-overlay">
+        <div class="nav-item">
+            <span class="material-symbols-outlined" onclick="closeNav()" id="nav-close">
+                close
+            </span>
+        </div>
+        <div class="banner">
+            <h1>@devkhrmnturk</h1>
+            <div class="avatar"></div>
+            <p>created by</p>
+        </div>
+    </nav>
+    <!-- outmain -->
+    <div class="outmain">
+        <!-- brand -->
+        <h1 id="brand">perf_</h1>
+        <!-- outmain-nav -->
+        <div class="outmain__nav">
+            <p class="outline-p">Show More</p>
+        </div>
+    </div>
+    <!-- main -->
+    <main>
+        <!-- aside -->
+        <aside>
+            <div class="nav-btn">
+                <span id="menu-btn" class="material-symbols-outlined" onclick="openNav()">
+                    menu
+                </span>
+            </div>
+        </aside>
+        <!-- article -->
+        <article>
+            <!-- article-container -->
+            <div class="article__container">
+                <header>
+                    <div class="article__head">perforvisia</div>
+                    <p class="subhead">elevate your space</p>
+                </header>
+                <div class="article__content">
+                    <h1 class="intense"><span class="span-1">Now the <span class="span-2">real,</span></span> <br> onyl little far a</h1>
+                    <div class="dream-txt">
+                        <h1 class="intense" id="dream">dream</h1>
+                    </div>
+                    <div class="descrp">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, eius Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, necessitatibus.</p>
+                    </div>
+                    <div class="explore-btn-container">
+                        <button class="explore-btn">Explore</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <!-- outmain-2 -->
+    <div class="outmain"></div>
+
+    <!-- SCRIPTS -->
+
+    <script>
+        function openNav() { 
+           document.getElementById("nav").style.width = "100%";
+       }
+
+       function closeNav() {
+       document.getElementById("nav").style.width = "0%";
+       }
+   </script>
+</body>
+</html>
